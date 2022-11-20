@@ -5,8 +5,11 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Device</title>
-
-  <link rel="stylesheet" href="css/style.css">
+  <!-- Favicons -->
+  <link rel="icon" href="favicon.ico">
+  <link rel="icon" href="img/icons/favicons/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="img/icons/favicons/180.png">
+  <link rel="manifest" href="manifest.webmanifest">
 </head>
 <body>
   <!-- Header -->
@@ -22,63 +25,75 @@
           <button type="submit">Найти</button>
         </form>
 
-        <a href="#">Войти</a>
+        <div>
+          <a href="#">
+            <svg width="9" height="10" viewBox="0 0 9 10" fill="#000000" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4.49996 0.333252C5.69704 0.333252 6.66663 1.37742 6.66663 2.66659C6.66663 3.95575 5.69704 4.99992 4.49996 4.99992C3.30288 4.99992 2.33329 3.95575 2.33329 2.66659C2.33329 1.37742 3.30288 0.333252 4.49996 0.333252ZM4.49996 9.66659C4.49996 9.66659 8.83329 9.66659 8.83329 8.49992C8.83329 7.09992 6.72079 5.58325 4.49996 5.58325C2.27913 5.58325 0.166626 7.09992 0.166626 8.49992C0.166626 9.66659 4.49996 9.66659 4.49996 9.66659Z"/>
+            </svg>
+            <span>Войти</span>
+          </a>
 
-        <button type="button">Сравнить</button>
-        <button type="button">Корзина</button>
+          <div>
+            <button type="button">Сравнить</button>
+            <button type="button">Корзина</button>
+          </div>
+        </div>
       </div>
 
-      <ul>
-        <li>
-          <a href="">Каталог товаров</a>
-          <ul>
-            <li>
-              <ul>
-                <li>
-                  <a href="">Виртуальная реальность</a>
-                </li>
-                <li>
-                  <a href="">Моноподы для селфи</a>
-                </li>
-                <li>
-                  <a href="">Экшн-камеры</a>
-                </li>
-              </ul>
-            </li>
+      <div>
+        <ul>
+          <li>
+            <a href="blank.html">Каталог товаров</a>
+            <ul>
+              <li>
+                <ul>
+                  <li>
+                    <a href="blank.html">Виртуальная реальность</a>
+                  </li>
+                  <li>
+                    <a href="catalog.html">Моноподы для селфи</a>
+                  </li>
+                  <li>
+                    <a href="blank.html">Экшн-камеры</a>
+                  </li>
+                </ul>
+              </li>
 
-            <li>
-              <ul>
-                <li>
-                  <a href="">Фитнес-браслеты</a>
-                </li>
-                <li>
-                  <a href="">Умные часы</a>
-                </li>
-              </ul>
-            </li>
+              <li>
+                <ul>
+                  <li>
+                    <a href="blank.html">Фитнес-браслеты</a>
+                  </li>
+                  <li>
+                    <a href="blank.html">Умные часы</a>
+                  </li>
+                </ul>
+              </li>
 
-            <li>
-              <ul>
-                <li>
-                  <a href="">Квадрокоптер</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-      </ul>
+              <li>
+                <ul>
+                  <li>
+                    <a href="blank.html">Квадрокоптер</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
 
-      <ul>
-        <li>
-          <a href="">Доставка</a>
-        </li>
-        <li>
-          <a href="">Гарантия</a>
-        </li>
-        <li>
-          <a href="">Контакты</a>
-        </li>
-      </ul>
+        <ul>
+          <li>
+            <a href="blank.html">Доставка</a>
+          </li>
+          <li>
+            <a href="blank.html">Гарантия</a>
+          </li>
+          <li>
+            <a href="blank.html">Контакты</a>
+          </li>
+        </ul>
+      </div>
+
     </nav>
   </header>
   <!-- Main -->
@@ -310,7 +325,7 @@
   <footer>
     <div>
       <a>
-        <img src="img/logo.svg" width="163" height="35" alt="Логотип интернет-магазина Device">
+        <svg width="163" height="35" fill="#F0C52E" xmlns="http://www.w3.org/2000/svg"><path d="M13.7.67a15.9 15.9 0 0 1 11.85 4.86c3.2 3.2 4.8 7.2 4.8 11.97 0 4.78-1.6 8.78-4.8 12.02a15.97 15.97 0 0 1-11.84 4.8H0V.68h13.7Zm0 26.25c2.72 0 4.9-.85 6.57-2.55 1.7-1.73 2.54-4.02 2.54-6.87 0-2.85-.85-5.13-2.54-6.83-1.67-1.73-3.85-2.6-6.56-2.6H7.83v18.85h5.88Zm28.89 0h13.7v7.4H34.77V.68h21.29v7.4H42.59v5.58h12.24v7.31H42.59v5.96Zm26.35 7.4L57.78.68h8.56l7.6 24.76L81.51.67h8.57L78.93 34.33h-10ZM93.04.68h7.82v33.66h-7.83V.67ZM123.1 35c-5.12 0-9.38-1.67-12.77-5a16.99 16.99 0 0 1-5.05-12.5c0-4.97 1.69-9.12 5.05-12.45C113.72 1.68 117.98 0 123.1 0c3.07 0 5.91.7 8.52 2.12a15.82 15.82 0 0 1 6.17 5.67l-6.76 3.84a7.51 7.51 0 0 0-3.23-3.02 9.95 9.95 0 0 0-4.7-1.11c-3.03 0-5.46.91-7.3 2.74-1.79 1.83-2.68 4.25-2.68 7.26s.9 5.43 2.69 7.26c1.83 1.83 4.26 2.74 7.3 2.74 1.72 0 3.29-.37 4.7-1.1a7.52 7.52 0 0 0 3.22-3.03l6.76 3.84a15.8 15.8 0 0 1-6.12 5.72A18.07 18.07 0 0 1 123.1 35Zm26.2-8.08H163v7.4h-21.54V.68h21.3v7.4h-13.47v5.58h12.24v7.31H149.3v5.96Z"/></svg>
       </a>
       <p>г. Москва, ул. Строителей, 15</p>
     </div>
@@ -341,24 +356,29 @@
     </div>
 
     <div>
-      <ul>
-        <li>
-          <a href="">Войти</a>
-        </li>
-        <li>
+      <div>
+        <div>
+          <a href="#">
+            <svg width="9" height="10" viewBox="0 0 9 10" fill="#FFC600" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4.49996 0.333252C5.69704 0.333252 6.66663 1.37742 6.66663 2.66659C6.66663 3.95575 5.69704 4.99992 4.49996 4.99992C3.30288 4.99992 2.33329 3.95575 2.33329 2.66659C2.33329 1.37742 3.30288 0.333252 4.49996 0.333252ZM4.49996 9.66659C4.49996 9.66659 8.83329 9.66659 8.83329 8.49992C8.83329 7.09992 6.72079 5.58325 4.49996 5.58325C2.27913 5.58325 0.166626 7.09992 0.166626 8.49992C0.166626 9.66659 4.49996 9.66659 4.49996 9.66659Z"/>
+            </svg>
+            <span>Войти</span>
+          </a>
+        </div>
+
+        <div>
           <button type="button">Сравнить</button>
-        </li>
-        <li>
           <button type="button">Корзина</button>
-        </li>
-      </ul>
+        </div>
+      </div>
 
       <p>
         Тел.: <a href="tel:Тел.:+74954959595">+7 (495) 495-95-95</a>
       </p>
 
       <a href="http://htmlacademy.ru">
-        HTML Academy
+        <span>HTML Academy</span>
+        <img src="img/logo-html-academy.svg" width="27" height="34" alt="Логотип Html Academy">
       </a>
     </div>
   </footer>
